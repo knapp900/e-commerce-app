@@ -1,4 +1,4 @@
-package dev.ak;
+package dev.ak.inventoryManager;
 
 
 import org.springframework.boot.SpringApplication;
