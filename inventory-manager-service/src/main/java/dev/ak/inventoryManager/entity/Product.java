@@ -16,12 +16,21 @@ public abstract class Product {
     private Long id;
     private String name;
     private String description;
+    private TypeOfSale typeOfSale;
+    private double minimumQuantityForSale;
+    private Long categoryId;
     private List<String> picturesURIs;
     private List<Batch> batches;
-    private BigDecimal averagePrice;
     private LocalDateTime createdAt;
+    private boolean isPublished;
     private boolean isAutoPricing;
-    //TODO написать валидацию отпускной цены
+    private ProductLocation location;
+    /*
+    TODO
+    Написать валидацию отпускной цены Тип BigDecimal для sellingPrice:
+    Убедитесь, что валидация также учитывает правильность формата
+    (например, точность до двух знаков после запятой).
+     */
     private BigDecimal sellingPrice; // цена не может быть меньше чем самая низкая цена партии + 15%
 
 }

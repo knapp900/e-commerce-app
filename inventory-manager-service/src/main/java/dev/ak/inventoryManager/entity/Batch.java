@@ -15,6 +15,6 @@ public abstract class Batch {
     private Long id;
     private String nameOfBatch;
     private LocalDateTime  dateOfReceipt;
-    private int quantity;
+    private double quantity;
     private BigDecimal costPrice;
 }

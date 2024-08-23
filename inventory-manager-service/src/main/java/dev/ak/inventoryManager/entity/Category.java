@@ -17,5 +17,4 @@ public class Category {
     private String name;
     private List<Product> products;
     private Category parentCategory;
-    private Set<Category> subCategories;
 }
