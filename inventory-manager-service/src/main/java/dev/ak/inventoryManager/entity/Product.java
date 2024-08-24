@@ -24,6 +24,7 @@ public abstract class Product {
     private LocalDateTime createdAt;
     private boolean isPublished;
     private boolean isAutoPricing;
+    private boolean isActive;
     private ProductLocation location;
     /*
     TODO
